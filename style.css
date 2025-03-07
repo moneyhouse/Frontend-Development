@@ -1,11 +1,28 @@
-h3 {
-    color: darkgreen;
-    text-align: left;
+/* sets the margin of all the element to 10px on all sides and the background-color to black */
+body{
+    margin: 10px;
+    background-color: black;
 }
-table {
-    border: 1px solid black;
-    background-color: lightblue;
-}
-td {
-    border: 1px solid black;
-}
+/* Home section  which has the app name and nav bar. The styling is applied by id */
+#home {
+    background-color:  #483355;
+    padding-bottom: 1cm;
+    margin-left:-1cm;
+    margin-right:-1cm;
+    margin-top:-1cm;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+   }
+/* Application name inside the home section. The styling is applied by tag name */
+  header {
+    font-size: 30px;
+    color: rgb(240, 234, 245);
+    float: left;
+    padding-left: 2cm;
+  }
+/* Navigation Bar Container*/
+  .topdiv {
+    float: right;
+    padding-right: 1cm;
+  }
+  
